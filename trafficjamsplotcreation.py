@@ -125,6 +125,7 @@ def new(N,L,a,s):
     ax[1,1].legend()
 
     plt.savefig("plotN="+str(N)+"L="+str(L)+"a="+str(a)+"s="+str(s)+".png")
+    plt.close()
 
 for i in NL:
     for j in LL:
