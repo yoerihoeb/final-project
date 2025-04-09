@@ -115,7 +115,7 @@ def new(N,L,a,s):
     carn = np.arange(0, N,1)        #carnumber
 
     ax[1,1].plot(carn,velocity[carn,0], c="orange",ls="-",linewidth=1.3, label="t=0")
-    ax[1,1].plot(carn,velocity[carn,-1], c="b",ls="-",linewidth=1.3, label="t="+str(iterations))
+    ax[1,1].plot(carn,velocity[carn,100], c="b",ls="-",linewidth=1.3, label="t=100")
 
     ax[1,1].set_title("Velocity of car at t")
     ax[1,1].set_ylabel("Velocity")
